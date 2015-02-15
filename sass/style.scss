@@ -1,0 +1,340 @@
+// Screen
+// ======
+
+
+@import "susy";
+@import "compass";
+@import "compass/reset";
+@import "compass/css3";
+
+
+
+$susy: (
+  columns: 12,
+  gutters: 1/4,
+  container: 100em,
+  math: fluid,
+  output: float,
+  gutter-position: after,
+  
+  debug: (
+    image: hide,
+    color: rgba(#66f, .5),
+    output: background,
+    toggle: top right,
+  )
+);
+
+body {
+	background:#313131;
+	@include container(80%);
+
+}
+
+.clr{
+	clear:both;
+}
+
+a {
+	color:#c5c5c5;
+	text-decoration: none;
+}
+
+p {
+	color: #c5c5c5;
+}
+.header{
+	background-color:#1b1b1c;
+	height: 100px;
+	position: relative;
+}
+
+.logo{
+	@include span (1);
+	@include push(1);
+	background-image: url(../img/logo.png);
+	height: 96px;
+	width: 115px;
+	
+	
+}
+.number{
+	@include span(2.1);
+	@include push(5);
+	font-size: 15pt;
+	padding-top: 10px;
+
+}
+.social ul li{
+	padding-top: 5px;
+	text-decoration: none;
+	display: inline-block;
+	margin-right: 5px;
+
+}
+.facebook{
+	@include span(3);
+	@include push(7);
+	background-image: url(../img/facebook.png);
+	width: 25px;
+	height: 25px;
+}
+.twitter{
+	@include span(3);
+	@include push(7);
+	background-image: url(../img/twitter.png);
+	width: 25px;
+	height: 25px;
+}
+.rss{
+	@include span(3);
+	@include push(7);
+	background-image: url(../img/rss.png);
+	width: 25px;
+	height: 25px;
+}
+.digg{
+	@include span(3);
+	@include push(7);
+	background-image: url(../img/digg.png);
+	width: 25px;
+	height: 25px;
+}
+.email{
+	@include span(3);
+	@include push(7);
+	background-image: url(../img/email.png);
+	width: 25px;
+	height: 25px;
+}
+.msn{
+	@include span(3);
+	@include push(7);
+	background-image: url(../img/msn.png);
+	width: 25px;
+	height: 25px;
+}
+
+.menu{
+	@include span(5);
+	@include push(4.3);
+	padding-top: 40px;
+ ul li{
+	font-size: 18px;
+	text-decoration: none;
+	display: inline-block;
+	padding-right: 20px;
+
+	a{
+		color:#ffffff;
+		padding: 10px 10px 8px 10px;
+        &:hover{
+        	background-color: #2096da;
+        	
+        }
+	}
+}}
+
+
+
+.line{
+@include span (12);
+
+background-image: url(../img/line.png);
+height: 5px;
+}
+
+
+.content{
+	@include span (12);
+
+	background-image: url(../img/bg_body.png);
+	height: 1295px;
+}
+#gamma-container{
+	@include span(10);
+	@include push(1);
+	padding-top: 40px;
+}
+.box-shadow-example div {
+  @include span(12);
+  height: 1px;
+  background: #161617;
+  float: left;
+}
+ 
+
+// Box shadow with custom settings
+#box-shadow-custom {
+  @include box-shadow(black 2px 2px 10px);
+}
+ 
+
+.prefooter{
+	
+  height: 325px;
+  background-color: #1b1b1c;
+}
+.f_social{
+	@include span(12);
+	margin-top: -55px;
+	position: relative;
+	
+}
+	
+.ftwitter {
+	@include span(1);
+	@include push(1);
+  	background-image: url(../img/ftwitter.png);
+  	width: 104px;
+  	height: 105px;
+  	
+}
+
+.ffacebook {
+	@include span(1);
+	@include push(0.5);
+  	background-image: url(../img/ffacebook.png);
+  	width: 104px;
+  	height: 105px;
+  	
+}
+
+.fdigg {
+	@include span(1);
+	@include push(0.5);
+  	background-image: url(../img/fdigg.png);
+  	width: 104px;
+  	height: 105px;
+}
+
+.frss {
+	@include span(1);
+	@include push(0.5);
+  	background-image: url(../img/frss.png);
+  	width: 104px;
+  	height: 105px;
+}
+
+.fflickr {
+	@include span(1);
+	@include push(0.5);
+  	background-image: url(../img/fflickr.png);
+  	width: 104px;
+  	height: 105px;
+}
+
+.flinkedin {
+	@include span(1);
+	@include push(0.4);
+  	background-image: url(../img/flinkedin.png);
+  	width: 104px;
+  	height: 105px;
+}
+
+.fdribble {
+	@include span(1);
+	@include push(0.5);
+  	background-image: url(../img/fdribble.png);
+  	width: 104px;
+  	height: 105px;
+}
+
+.block_1{
+@include span(3);
+@include push(0.8);
+padding-top: 30px;
+}
+.linel{
+@include span(2);
+  height: 1px;
+  background: #323233;
+  float: left;
+  margin-top: 12px;
+  margin-left: 23px;
+}
+.liner{
+@include span(2);
+  height: 1px;
+  background: #323233;
+  float: right;
+  margin-top: -12px;
+  margin-right: 26px;
+
+}
+.gallery_wrap{
+	padding-top: 20px;
+	padding-left: 25px;
+	padding-right: 25px;
+
+}
+.gallery img {
+  @include gallery(4 of 12);
+	padding-top: 4px;
+}
+
+.block_2{
+@include span(3);
+@include push(0.5);
+padding-top: 35px;
+}
+.linel_b2{
+@include span(2.5);
+  height: 1px;
+  background: #323233;
+  float: left;
+  margin-top: 12px;
+  margin-left: 14px;
+}
+.liner_b2{
+@include span(2.5);
+  height: 1px;
+  background: #323233;
+  float: right;
+  margin-top: -12px;
+  margin-right: 6px;
+
+}
+
+.gallery_wrap2{
+	padding-top: 20px;
+	padding-left: 25px;
+	padding-right: 25px;
+
+}
+.gallery_posts img {
+  @include gallery(5 of 12);
+	padding-top: 4px;
+}
+
+.block_3{
+@include span(3);
+@include push(0.6);
+padding-top: 35px;
+}
+.linel_b3{
+@include span(2.5);
+  height: 1px;
+  background: #323233;
+  float: left;
+  margin-top: 12px;
+  margin-left: 27px;
+}
+.liner_b3{
+@include span(2.5);
+  height: 1px;
+  background: #323233;
+  float: right;
+  margin-top: -12px;
+  margin-right: 6px;
+
+}
+.flickr{
+	font-size: 18pt;
+}
+
+.footer{
+  height: 25px;
+  background-color: #2096da;
+
+}

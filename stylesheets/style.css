@@ -1,0 +1,531 @@
+/* line 5, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 28, ../sass/style.scss */
+body {
+  background: #313131;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 12, C:/Ruby193/lib/ruby/gems/1.9.1/gems/susy-2.2.2/sass/susy/output/support/_clearfix.scss */
+body:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+/* line 34, ../sass/style.scss */
+.clr {
+  clear: both;
+}
+
+/* line 38, ../sass/style.scss */
+a {
+  color: #c5c5c5;
+  text-decoration: none;
+}
+
+/* line 43, ../sass/style.scss */
+p {
+  color: #c5c5c5;
+}
+
+/* line 46, ../sass/style.scss */
+.header {
+  background-color: #1b1b1c;
+  height: 100px;
+  position: relative;
+}
+
+/* line 52, ../sass/style.scss */
+.logo {
+  width: 6.77966%;
+  float: left;
+  margin-right: 1.69492%;
+  margin-left: 8.47458%;
+  background-image: url(../img/logo.png);
+  height: 96px;
+  width: 115px;
+}
+
+/* line 61, ../sass/style.scss */
+.number {
+  width: 16.10169%;
+  float: left;
+  margin-right: 1.69492%;
+  margin-left: 42.37288%;
+  font-size: 15pt;
+  padding-top: 10px;
+}
+
+/* line 68, ../sass/style.scss */
+.social ul li {
+  padding-top: 5px;
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+/* line 75, ../sass/style.scss */
+.facebook {
+  width: 23.72881%;
+  float: left;
+  margin-right: 1.69492%;
+  margin-left: 59.32203%;
+  background-image: url(../img/facebook.png);
+  width: 25px;
+  height: 25px;
+}
+
+/* line 82, ../sass/style.scss */
+.twitter {
+  width: 23.72881%;
+  float: left;
+  margin-right: 1.69492%;
+  margin-left: 59.32203%;
+  background-image: url(../img/twitter.png);
+  width: 25px;
+  height: 25px;
+}
+
+/* line 89, ../sass/style.scss */
+.rss {
+  width: 23.72881%;
+  float: left;
+  margin-right: 1.69492%;
+  margin-left: 59.32203%;
+  background-image: url(../img/rss.png);
+  width: 25px;
+  height: 25px;
+}
+
+/* line 96, ../sass/style.scss */
+.digg {
+  width: 23.72881%;
+  float: left;
+  margin-right: 1.69492%;
+  margin-left: 59.32203%;
+  background-image: url(../img/digg.png);
+  width: 25px;
+  height: 25px;
+}
+
+/* line 103, ../sass/style.scss */
+.email {
+  width: 23.72881%;
+  float: left;
+  margin-right: 1.69492%;
+  margin-left: 59.32203%;
+  background-image: url(../img/email.png);
+  width: 25px;
+  height: 25px;
+}
+
+/* line 110, ../sass/style.scss */
+.msn {
+  width: 23.72881%;
+  float: left;
+  margin-right: 1.69492%;
+  margin-left: 59.32203%;
+  background-image: url(../img/msn.png);
+  width: 25px;
+  height: 25px;
+}
+
+/* line 118, ../sass/style.scss */
+.menu {
+  width: 40.67797%;
+  float: left;
+  margin-right: 1.69492%;
+  margin-left: 36.44068%;
+  padding-top: 40px;
+}
+/* line 122, ../sass/style.scss */
+.menu ul li {
+  font-size: 18px;
+  text-decoration: none;
+  display: inline-block;
+  padding-right: 20px;
+}
+/* line 128, ../sass/style.scss */
+.menu ul li a {
+  color: #ffffff;
+  padding: 10px 10px 8px 10px;
+}
+/* line 131, ../sass/style.scss */
+.menu ul li a:hover {
+  background-color: #2096da;
+}
+
+/* line 140, ../sass/style.scss */
+.line {
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  background-image: url(../img/line.png);
+  height: 5px;
+}
+
+/* line 148, ../sass/style.scss */
+.content {
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  background-image: url(../img/bg_body.png);
+  height: 1295px;
+}
+
+/* line 154, ../sass/style.scss */
+#gamma-container {
+  width: 83.05085%;
+  float: left;
+  margin-right: 1.69492%;
+  margin-left: 8.47458%;
+  padding-top: 40px;
+}
+
+/* line 159, ../sass/style.scss */
+.box-shadow-example div {
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  height: 1px;
+  background: #161617;
+  float: left;
+}
+
+/* line 168, ../sass/style.scss */
+#box-shadow-custom {
+  -moz-box-shadow: black 2px 2px 10px;
+  -webkit-box-shadow: black 2px 2px 10px;
+  box-shadow: black 2px 2px 10px;
+}
+
+/* line 173, ../sass/style.scss */
+.prefooter {
+  height: 325px;
+  background-color: #1b1b1c;
+}
+
+/* line 178, ../sass/style.scss */
+.f_social {
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: -55px;
+  position: relative;
+}
+
+/* line 185, ../sass/style.scss */
+.ftwitter {
+  width: 6.77966%;
+  float: left;
+  margin-right: 1.69492%;
+  margin-left: 8.47458%;
+  background-image: url(../img/ftwitter.png);
+  width: 104px;
+  height: 105px;
+}
+
+/* line 194, ../sass/style.scss */
+.ffacebook {
+  width: 6.77966%;
+  float: left;
+  margin-right: 1.69492%;
+  margin-left: 4.23729%;
+  background-image: url(../img/ffacebook.png);
+  width: 104px;
+  height: 105px;
+}
+
+/* line 203, ../sass/style.scss */
+.fdigg {
+  width: 6.77966%;
+  float: left;
+  margin-right: 1.69492%;
+  margin-left: 4.23729%;
+  background-image: url(../img/fdigg.png);
+  width: 104px;
+  height: 105px;
+}
+
+/* line 211, ../sass/style.scss */
+.frss {
+  width: 6.77966%;
+  float: left;
+  margin-right: 1.69492%;
+  margin-left: 4.23729%;
+  background-image: url(../img/frss.png);
+  width: 104px;
+  height: 105px;
+}
+
+/* line 219, ../sass/style.scss */
+.fflickr {
+  width: 6.77966%;
+  float: left;
+  margin-right: 1.69492%;
+  margin-left: 4.23729%;
+  background-image: url(../img/fflickr.png);
+  width: 104px;
+  height: 105px;
+}
+
+/* line 227, ../sass/style.scss */
+.flinkedin {
+  width: 6.77966%;
+  float: left;
+  margin-right: 1.69492%;
+  margin-left: 3.38983%;
+  background-image: url(../img/flinkedin.png);
+  width: 104px;
+  height: 105px;
+}
+
+/* line 235, ../sass/style.scss */
+.fdribble {
+  width: 6.77966%;
+  float: left;
+  margin-right: 1.69492%;
+  margin-left: 4.23729%;
+  background-image: url(../img/fdribble.png);
+  width: 104px;
+  height: 105px;
+}
+
+/* line 243, ../sass/style.scss */
+.block_1 {
+  width: 23.72881%;
+  float: left;
+  margin-right: 1.69492%;
+  margin-left: 6.77966%;
+  padding-top: 30px;
+}
+
+/* line 248, ../sass/style.scss */
+.linel {
+  width: 15.25424%;
+  float: left;
+  margin-right: 1.69492%;
+  height: 1px;
+  background: #323233;
+  float: left;
+  margin-top: 12px;
+  margin-left: 23px;
+}
+
+/* line 256, ../sass/style.scss */
+.liner {
+  width: 15.25424%;
+  float: left;
+  margin-right: 1.69492%;
+  height: 1px;
+  background: #323233;
+  float: right;
+  margin-top: -12px;
+  margin-right: 26px;
+}
+
+/* line 265, ../sass/style.scss */
+.gallery_wrap {
+  padding-top: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+/* line 271, ../sass/style.scss */
+.gallery img {
+  width: 32.20339%;
+  float: left;
+  padding-top: 4px;
+}
+/* line 66, C:/Ruby193/lib/ruby/gems/1.9.1/gems/susy-2.2.2/sass/susy/language/susy/_gallery.scss */
+.gallery img:nth-child(3n + 1) {
+  margin-left: 0;
+  margin-right: -100%;
+  clear: both;
+  margin-left: 0;
+}
+/* line 66, C:/Ruby193/lib/ruby/gems/1.9.1/gems/susy-2.2.2/sass/susy/language/susy/_gallery.scss */
+.gallery img:nth-child(3n + 2) {
+  margin-left: 33.89831%;
+  margin-right: -100%;
+  clear: none;
+}
+/* line 66, C:/Ruby193/lib/ruby/gems/1.9.1/gems/susy-2.2.2/sass/susy/language/susy/_gallery.scss */
+.gallery img:nth-child(3n + 3) {
+  margin-left: 67.79661%;
+  margin-right: -100%;
+  clear: none;
+}
+
+/* line 276, ../sass/style.scss */
+.block_2 {
+  width: 23.72881%;
+  float: left;
+  margin-right: 1.69492%;
+  margin-left: 4.23729%;
+  padding-top: 35px;
+}
+
+/* line 281, ../sass/style.scss */
+.linel_b2 {
+  width: 19.49153%;
+  float: left;
+  margin-right: 1.69492%;
+  height: 1px;
+  background: #323233;
+  float: left;
+  margin-top: 12px;
+  margin-left: 14px;
+}
+
+/* line 289, ../sass/style.scss */
+.liner_b2 {
+  width: 19.49153%;
+  float: left;
+  margin-right: 1.69492%;
+  height: 1px;
+  background: #323233;
+  float: right;
+  margin-top: -12px;
+  margin-right: 6px;
+}
+
+/* line 299, ../sass/style.scss */
+.gallery_wrap2 {
+  padding-top: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+/* line 305, ../sass/style.scss */
+.gallery_posts img {
+  width: 40.67797%;
+  float: left;
+  padding-top: 4px;
+}
+/* line 66, C:/Ruby193/lib/ruby/gems/1.9.1/gems/susy-2.2.2/sass/susy/language/susy/_gallery.scss */
+.gallery_posts img:nth-child(2n + 1) {
+  margin-left: 0;
+  margin-right: -100%;
+  clear: both;
+  margin-left: 0;
+}
+/* line 66, C:/Ruby193/lib/ruby/gems/1.9.1/gems/susy-2.2.2/sass/susy/language/susy/_gallery.scss */
+.gallery_posts img:nth-child(2n + 2) {
+  margin-left: 42.37288%;
+  margin-right: -100%;
+  clear: none;
+}
+
+/* line 310, ../sass/style.scss */
+.block_3 {
+  width: 23.72881%;
+  float: left;
+  margin-right: 1.69492%;
+  margin-left: 5.08475%;
+  padding-top: 35px;
+}
+
+/* line 315, ../sass/style.scss */
+.linel_b3 {
+  width: 19.49153%;
+  float: left;
+  margin-right: 1.69492%;
+  height: 1px;
+  background: #323233;
+  float: left;
+  margin-top: 12px;
+  margin-left: 27px;
+}
+
+/* line 323, ../sass/style.scss */
+.liner_b3 {
+  width: 19.49153%;
+  float: left;
+  margin-right: 1.69492%;
+  height: 1px;
+  background: #323233;
+  float: right;
+  margin-top: -12px;
+  margin-right: 6px;
+}
+
+/* line 332, ../sass/style.scss */
+.flickr {
+  font-size: 18pt;
+}
+
+/* line 336, ../sass/style.scss */
+.footer {
+  height: 25px;
+  background-color: #2096da;
+}
